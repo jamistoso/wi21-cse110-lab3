@@ -83,7 +83,133 @@ ctx.fillStyle = "#FF0000";
 ctx.fillRect(0, 0, 80, 80);
 </script>
 
+<p>
+  <svg width="100" height="100">
+  <circle cx="50" cy="50" r="20" stroke="red" stroke-width="4" fill="white" />
+  </svg> 
+</p>
+
+<h3>
+  Form
+</h3>
+<form>
+  <label for="fname">A:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">B:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<h3>
+  Optgroup
+</h3>
+
+<form>
+  <label for="food">Choose a food:</label>
+  <select>
+  <optgroup label="Dinner">
+    <option value="pizza">Pizza</option>
+    <option value="pasta">Pasta</option>
+  </optgroup>
+  <optgroup label="Dessert">
+    <option value="Ice Cream">Volvo</option>
+    <option value="Cake">Saab</option>
+  </optgroup>
+  </select>
+</form>
+
+<h3>
+  Fieldset
+</h3>
+
+<form>
+  <fieldset>
+  <legend>Information:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="food">Food:</label>
+  <input type="text" id="food" name="food"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+
+<h3>
+  Textarea
+</h3>
+
+<form>
+<label for="Sample text box:">Sample text box:</label>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+  Ayy, it's a sample text box.
+  </textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<template>
+<h3>
+  Datalist
+</h3>
+
+<form>
+ <label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist> 
+</form>
+</template>
+
+<h3>
+  Table
+</h3>
+
+<table>
+  <colgroup>
+    <col span="2">
+  </colgroup>
+  <Caption>Spanish translation of numbers</Caption>
+  <tr>
+    <th>Two</th>
+  </tr>
+  <tr>
+	<td>Uno</td>
+    <td>Dos</td>
+  </tr>
+</table>
+
+<h3>
+  Details
+</h3>
+
+<details>
+  <summary>Computer Science</summary>
+  <p>
+  A lot of things really. Kinda hard to summarize, to be honest.
+  </p>
+</details>
+
+<h3>
+  Button
+</h3>
+
+<button type="button">
+  Don't touch me.
+</button>
+
 </main>
 </body>
+
+<footer>
+  Author: Juan Carlos Amistoso
+</footer>
 
 </html>
