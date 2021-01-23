@@ -39,6 +39,7 @@ figure > figcaption  {
     color: #f08;
 }
 
+
 aside {
     text-align: right;
     text-decoration: overline;
@@ -68,6 +69,10 @@ nav li a {
 
 nav li a:hover {
     background-color: hsl(0,70%,0%);
+}
+
+svg:active {
+    background-color:skyblue;
 }
 
 br + p {
