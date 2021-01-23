@@ -1,0 +1,41 @@
+* {
+    min-width: 100px;
+    max-width: 1600px;
+}
+
+nav {
+    font-size: 20px;
+    background-color:aquamarine;
+    text-align:center;
+}
+
+body {
+    font-family:"Roboto", sans-serif;
+}
+
+figure {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+    border-style:dashed;
+    border-color:palegreen;
+    border-radius: 100;
+    height:fit-content;
+    width:fit-content;
+    border-width: 10px;
+}
+
+figure > figcaption  {
+    text-align:center;
+    color:#f08;
+}
+
+aside {
+    text-align:right;
+    margin:right 10px;
+}
