@@ -1,6 +1,7 @@
-* {
+main {
     min-width: 100px;
     max-width: 1600px;
+    background-color:aliceblue;
 }
 
 nav {
@@ -22,20 +23,54 @@ figure {
     padding-right: auto;
     padding-top: auto;
     padding-bottom: auto;
-    border-style:dashed;
     border-color:palegreen;
-    border-radius: 100;
+    border-radius: 3%;
     height:fit-content;
     width:fit-content;
     border-width: 10px;
+    border-style: solid;
 }
 
 figure > figcaption  {
-    text-align:center;
-    color:#f08;
+    text-align: center;
+    color: #f08;
 }
 
 aside {
-    text-align:right;
-    margin:right 10px;
+    text-align: right;
+    text-decoration: overline;
+    margin: right 10px;
+}
+
+nav
+
+nav li {
+    display: inline;
+    font-family: "Yusei Magic", sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    background-color:darkslategrey;
+    color:rgb(200, 200, 200);
+    position:sticky;
+}
+
+ul > li {
+    display: inline;
+    
+}
+
+main > ul,ol {
+    display:block;
+    float:right;
+}
+
+audio,video {
+    display:block;
+    float:right;
+}
+
+svg,canvas {
+    display: block;
 }
