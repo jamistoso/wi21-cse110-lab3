@@ -117,3 +117,21 @@ fieldset input {
     background-color:darkslategray;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 15px;
+    column-gap: 10px;
+    justify-items: left;
+    background-color:navy;
+}
+
+.grid-item {
+    background-color:dodgerblue;
+}
+
+@media only screen and (max-width: 720px) {
+    div.desktop {
+        display:none;
+    }
+}
