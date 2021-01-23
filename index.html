@@ -37,6 +37,10 @@
 <h3>Br above this ^
 </h3>
 
+<div class="desktop">
+  <h3> Hey, you're probably viewing this on a 720p or higher monitor!</h3>
+</div>
+
 <p>
 <code>Sample Code Text</code>
 </p>
@@ -152,20 +156,25 @@ ctx.fillRect(0, 0, 80, 80);
  </fieldset>
 </form>
 
+
+<div class="container">
+
+<div class="grid-item">
 <h3>
   Textarea
 </h3>
 
 <form>
 <label for="sampletextbox">Sample text box:</label>
-<textarea id="sampletextbox" name="sampletextbox" rows="4" cols="50">
+<textarea id="sampletextbox" name="sampletextbox" rows=auto cols=15>
   Ayy, it's a sample text box.
   </textarea>
-  <br><br>
   <input type="submit" value="Submit">
 </form>
+</div>
 
-<template>
+<div class="grid-item">
+
 <h3>
   Datalist
 </h3>
@@ -181,27 +190,37 @@ ctx.fillRect(0, 0, 80, 80);
   <option value="Safari">
 </datalist> 
 </form>
-</template>
 
+</div>
+
+
+<div class="grid-item">
 <h3>
   Table
 </h3>
+
 
 <table>
   <caption>Spanish translation of numbers</caption>
   <colgroup>
     <col span="2">
   </colgroup>
-      
-        <tr>
-          <th>One</th>
-          <th>Two</th>
-        </tr>
-        <tr>
-            <td>Uno</td>
-            <td>Dos</td>
-        </tr>
+  <tr>
+    <th>One</th>
+    <th>Two</th>
+    <th>Three</th>
+    <th>Four</th>
+  </tr>
+  <tr>
+    <td>Uno</td>
+    <td>Dos</td>
+    <td>Tres</td>
+    <td>Cuatro</td>
+  </tr>
 </table>
+</div>
+
+<div class="grid-item">
 
 <h3>
   Details
@@ -214,6 +233,9 @@ ctx.fillRect(0, 0, 80, 80);
   </p>
 </details>
 
+</div>
+
+<div class="grid-item">
 <h3>
   Button
 </h3>
@@ -221,6 +243,10 @@ ctx.fillRect(0, 0, 80, 80);
 <button type="button">
   Don't touch me.
 </button>
+</div> 
+
+</div> <!-- End grid -->
+
 
 </main>
 
